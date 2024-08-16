@@ -56,10 +56,10 @@
 							<a href="#about-us" class="nav-link menu-link">About Us</a>
 						</li>
 						<li class="nav-item">
-							<a href="#services" class="nav-link menu-link">Services</a>
+							<a href="./services-form.html" class="nav-link menu-link">Services</a>
 						</li>
 						<li class="nav-item">
-							<a href="blog.html" class="nav-link menu-link">Blog</a>
+							<a href="./blog.html" class="nav-link menu-link">Blog</a>
 						</li>
 						<li class="nav-item">
 							<a href="#" class="nav-link menu-link">Events</a>
