@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Services Form</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<style type="text/css">
+		
+	</style>
+	<link rel="stylesheet" href="assest/css/style.css">
+	<script type="text/javascript">
+				function submitt() {
+					alert("Your preferences has been successfully submitted");
+				}
+			</script>
+
+
+
+
+
+</head>
+<body>
+
+
+
+	<!-- main -->
+
+	<div class="main-service-form p-5">
+		<h2 class="your-pref-title">Your Preferences</h2>
+
+		<!-- form div -->
+
+		<form class="myform2 p-5 mt-5" onsubmit="return submitt()">
+
+			
+			<img src="assest/images/bg2-form2.png" class="bg2-form2-img" style="float: right; width: 60%;" height="400px">
+
+			<!-- attendees -->
+
+			<label class=" no-of-atten-l label-form2 p-1"> No of Attendees : </label>
+			<input type="number" class=" no-of-atten p-2" placeholder="An estimate number" ><br>
+		
+
+
+			<!-- budget -->
+
+			<label class="label-form2 mt-5 p-1"> Your Budget <i class="fa fa-database"></i> : </label><br>
+			<label class="mt-3 p-1 option-form2">
+				<input type="radio"  name="budget"  >
+				<span><i class="fa fa-inr"></i></span> 1,00,000 - <span><i class="fa fa-inr"></i></span> 5,00,000
+			</label><br>
+			<label class="mt-1 p-1 option-form2">
+				<input type="radio"  name="budget"  >
+				<span><i class="fa fa-inr"></i></span> 5,00,000 - <span><i class="fa fa-inr"></i></span>10,00,000
+			</label><br>
+			<label class="mt-1 p-1 option-form2" >
+				<input type="radio"  name="budget"  ><span><i class="fa fa-inr"></i></span>10,00,000 - <span><i class="fa fa-inr"></i></span>20,00,000
+			</label><br>
+			<label class="mt-1 p-1 option-form2">
+				<input type="radio"  name="budget"  ><span><i class="fa fa-inr"></i></span>20,00,000 - <span><i class="fa fa-inr"></i></span>30,00,000
+			</label><br>
+			<label class="mt-1 p-1 option-form2">
+				<input type="radio"  name="budget"  ><span><i class="fa fa-inr"></i></span>30,00,000 - <span><i class="fa fa-inr"></i></span>40,00,000
+			</label><br>
+			<label class="mt-1 p-1 option-form2">
+				<input type="radio"  name="budget"  ><span><i class="fa fa-inr"></i></span>40,00,000 - <span><i class="fa fa-inr"></i></span>50,00,000
+			</label><br>
+			<br>
+			<br>
+
+
+			<!-- div row -->
+
+			<div class="row row-form2">
+
+				<!-- first column -->
+
+				<div class="col-sm-9 col-md-9 col-lg-6 p-5">
+
+					<!-- decoration -->
+
+					<label  class="label-form2 mt-5 p-1">Decoration</label><br>
+					<label class="mt-1 p-1 option-form2" >
+						<input type="checkbox"  name="decoration" > Stage Decoration
+					</label><br>
+					<label class="mt-1 p-1 option-form2" >
+						<input type="checkbox"  name="decoration" > Food Display
+					</label><br>
+					<label class="mt-1 p-1 option-form2" >
+						<input type="checkbox"  name="decoration" > Lightning
+					</label><br>
+					<label class="mt-1 p-1 option-form2" >
+						<input type="checkbox"  name="decoration" > Decorative Backdrops
+					</label><br>
+					<label class="mt-1 p-1 option-form2" >
+						<input type="checkbox"  name="decoration" > Ceiling
+					</label><br>
+
+					<button type="button" class="btn btn-primary btn-sm btn-form2 mt-3" style="color: black;" data-bs-toggle="collapse" data-bs-target="#stage-deco">Click for images</button><br>
+					<div id="stage-deco" class="collapse div-card-form2">
+
+						<div class="card card-form2">
+							<img src="assest/images/stage-dec.png" class="card-form2-img">
+							<p>Stage Decoration</p>
+
+						</div>
+						<div class=" card card-form2">
+							<img src="assest/images/food-display.png" class="card-form2-img">
+							<p>Food Display</p>
+
+						</div>
+						<div class=" card card-form2">
+							<img src="assest/images/lightning.png" class="card-form2-img">
+							<p>Lightning</p>
+
+						</div>
+						<div class="card card-form2">
+							<img src="assest/images/dec-back.png" class="card-form2-img">
+							<p>Decorative Backdrops</p>
+
+						</div>
+						<div class=" card card-form2">
+							<img src="assest/images/ceiling.png" class="card-form2-img">
+							<p>Ceiling</p>
+
+						</div>
+
+					</div>
+
+
+					<!-- 	theme -->
+
+					<label  class="label-form2 mt-5 p-1">Theme of Event</label><br>
+					<label class="mt-1 p-1 option-form2">
+						<input type="radio"  name="theme" > Carnival
+					</label><br>
+					<label class="mt-1 p-1 option-form2">
+						<input type="radio"  name="theme" > Futurstic
+					</label><br>
+					<label class="mt-1 p-1 option-form2">
+						<input type="radio"  name="theme" > Classy
+					</label><br>
+					<label class="mt-1 p-1 option-form2">
+						<input type="radio"  name="theme" > Floral
+					</label><br>	
+					<label class="mt-1 p-1 option-form2">
+						<input type="radio"  name="theme" > Festive
+					</label><br>
+
+					<button type="button" class="btn btn-primary btn-form2 btn-sm mt-3" style="color: black;" data-bs-toggle="collapse" data-bs-target="#theme">Click for images</button><br>
+					<div id="theme" class="collapse div-card-form2">
+
+						<div class="card card-form2">
+							<img src="assest/images/carnival.png" class="card-form2-img">
+							<p>Carnival</p>
+
+						</div>
+						<div class=" card card-form2">
+							<img src="assest/images/Futurstic.png" class="card-form2-img">
+							<p>Futurstic</p>
+
+						</div>
+						<div class=" card card-form2">
+							<img src="assest/images/classy.png" class="card-form2-img">
+							<p>Classy</p>
+
+						</div>
+						<div class="card card-form2">
+							<img src="assest/images/floral.png" class="card-form2-img">
+							<p>Floral</p>
+
+						</div>
+						<div class=" card card-form2">
+							<img src="assest/images/festive.png" class="card-form2-img">
+							<p>Festive</p>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<!-- 2nd column -->
+
+
+				<div class="col-sm-9 col-md-9 col-lg-6 p-5">
+
+					<!-- venue -->
+
+					<label  class="label-form2 mt-5 p-1">Venue</label><br>
+					<label class="mt-1 p-1 option-form2">
+						<input type="radio"  name="venue"  >Conference Halls
+					</label><br>
+					<label class="mt-1 p-1 option-form2">
+						<input type="radio"  name="venue"  >Hotels
+					</label><br>
+					<label class="mt-1 p-1 option-form2">
+						<input type="radio"  name="venue"  >Resorts
+					</label><br>
+					<label class="mt-1 p-1 option-form2">
+						<input type="radio"  name="venue"  >Concert Halls
+					</label><br>
+					<label class="mt-1 p-1 option-form2">
+						<input type="radio"  name="venue"  >Breweries and Wineries
+					</label><br>
+
+					<button type="button" class="btn btn-primary btn-form2 btn-sm mt-3" style="color: black;" data-bs-toggle="collapse" data-bs-target="#venue">Click for images</button><br>
+					<div id="venue" class="collapse div-card-form2">
+
+						<div class="card card-form2">
+							<img src="assest/images/Conference-hall.png" class="card-form2-img">
+							<p>Conference Halls</p>
+
+						</div>
+						<div class=" card card-form2">
+							<img src="assest/images/hotel.png" class="card-form2-img">
+							<p>Holtels</p>
+
+						</div>
+						<div class=" card card-form2">
+							<img src="assest/images/resort.png" class="card-form2-img">
+							<p>Resorts</p>
+
+						</div>
+						<div class="card card-form2">
+							<img src="assest/images/concert-halls.png" class="card-form2-img">
+							<p>Concert Halls</p>
+
+						</div>
+						<div class=" card card-form2">
+							<img src="assest/images/brwi.png" class="card-form2-img">
+							<p>Breweries and Wineries</p>
+
+						</div>
+
+					</div>
+
+					<!-- cuisines -->
+
+					<label  class="label-form2 mt-5 p-1">Cuisines <i class="fa fa-cutlery" ></i>
+</label><br>
+					<label class="mt-1 p-1 option-form2">
+						<input type="radio"  name="cuisines"  >Italian Cuisines
+					</label><br>
+					<label class="mt-1 p-1 option-form2">
+						<input type="radio"  name="cuisines"  >North Indian Cuisines
+					</label><br>
+					<label class="mt-1 p-1 option-form2">
+						<input type="radio"  name="cuisines"  >South Indian Cuisines
+					</label><br>
+					<label class="mt-1 p-1 option-form2">
+						<input type="radio"  name="cuisines"  >Thai Cuisines
+					</label><br>
+					<label class="mt-1 p-1 option-form2">
+						<input type="radio"  name="cuisines"  >American Chinese Cuisines
+					</label><br>
+
+					<button type="button" class="btn btn-primary btn-form2 btn-sm mt-3" data-bs-toggle="collapse" data-bs-target="#cuisines">Click for images</button><br>
+					<div id="cuisines" class="collapse div-card-form2">
+
+						<div class="card card-form2">
+							<img src="assest/images/italian.png" class="card-form2-img">
+							<p>Italian Cuisines</p>
+
+						</div>
+						<div class=" card card-form2">
+							<img src="assest/images/southind.png" class="card-form2-img">
+							<p>North Indian Cuisines</p>
+
+						</div>
+						<div class=" card card-form2">
+							<img src="assest/images/northind.png" class="card-form2-img">
+							<p>South Indian Cuisines</p>
+
+						</div>
+						<div class="card card-form2">
+							<img src="assest/images/Thai.png" class="card-form2-img">
+							<p>Thai Cuisines</p>
+
+						</div>
+						<div class=" card card-form2">
+							<img src="assest/images/amch.png" class="card-form2-img">
+							<p>American Chinese Cuisines</p>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			
+
+			<button type="submit" class="btn btn-md btn-success w-100 mt-4" style="background-color: #926d4a;" >
+				SUBMIT
+			</button>
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+
+
+		<!-- copyright -->
+		<div class="copyright">
+			<p style="text-align: center;"> © 2017 Event Preferences form. All rights reserved | Design by <a href="us.html" target="_blank">Khushi & Akshit</a></p>
+		</div>
+
+
+	</div>	
+
+
+</body>
+</html>
